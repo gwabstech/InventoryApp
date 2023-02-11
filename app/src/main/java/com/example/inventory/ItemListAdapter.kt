@@ -54,7 +54,7 @@ class ItemListAdapter(private val onItemClicked: (Item) -> Unit) :
 
         fun bind(item: Item) {
             binding.itemName.text = item.itemName
-            binding.itemPrice.text = item.getFormattedPrice()
+            binding.itemPrice.text = "₦${item.itemPrice.toString()}"
             binding.itemQuantity.text = item.quantityInStock.toString()
         }
     }

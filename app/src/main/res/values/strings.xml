@@ -26,7 +26,7 @@
     <string name="edit_fragment_title">Edit Item</string>
     <string name="price">Price</string>
     <string name="quantity_in_stock">Quantity\nIn Stock</string>
-    <string name="item">Item</string>
+    <string name="item">Items</string>
     <string name="delete">Delete</string>
     <string name="delete_question">Are you sure you want to delete?</string>
     <string name="no">No</string>
